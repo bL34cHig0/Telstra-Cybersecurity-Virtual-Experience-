@@ -1,1 +1,1 @@
-# Telstra-Cybersecurity-Virtual-Experience-
+# Telstra-Cybersecurity-Virtual-Experience-Program
