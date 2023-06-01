@@ -10,7 +10,7 @@ port = 8000
 #########
 # Define the regular expressions to match the request path and HTTP headers
 path_regex = re.compile(r"/tomcatwar\.jsp")
-headers_regex = re.compile(r"(suffix=%>\/\/)|(c1=Runtime)|(c2=<%)|(DNT=1)|(Content-Type: application\/x-w>")
+headers_regex = re.compile(r"(suffix=%>\/\/)|(c1=Runtime)|(c2=<%)|(DNT=1)|(Content-Type: application\/x-w>)")
 
 class ServerHandler(BaseHTTPRequestHandler):
     def do_GET(self):
