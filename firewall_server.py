@@ -42,6 +42,7 @@ if __name__ == "__main__":
     # Create an HTTP server with the specified host and port, using the ServerHandler class to handle requests
     server = HTTPServer((host, port), ServerHandler)
     print("[+] Firewall Server")
+    print("[+] HTTP Web Server running on: %s:%s" % (host, port))
     try:
         server.serve_forever()  # Start the server and keep it running
     except KeyboardInterrupt:
