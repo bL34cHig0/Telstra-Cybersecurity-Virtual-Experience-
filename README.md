@@ -7,7 +7,7 @@ I participated in Telstra's Security Operations Centre as an Information Securit
 3. Utilize the patterns identified to formulate a firewall rule with Python programming language in order to mitigate the malware from spreading.
 4. Drafted an incident postmortem of the malware attack, covering the details I picked up in the previous task.
 
-# Firewall Server
+# Firewall Rule
 
 This is a simple Python project I was tasked to perform as a participant of Telstra Virtual Experience Program with Forage. My task was to utilize Python to develop a firewall rule to mitigate a zero-day vulnerability malware attack (CVE-2022-22965), known as Spring4Shell. Therefore, I developed a firewall rule in the firewall_server.py script provided by Telstra to mitigate the attack on their nbn services. The rule blocks:
 
