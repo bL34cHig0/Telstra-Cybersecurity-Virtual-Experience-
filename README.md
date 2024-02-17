@@ -11,7 +11,7 @@ I participated in Telstra's Security Operations Centre as an Information Securit
 
 This is a simple Python project I was tasked to perform as a participant of Telstra Virtual Experience Program with Forage. My task was to utilize Python to develop a firewall rule to mitigate a zero-day vulnerability malware attack (CVE-2022-22965), known as Spring4Shell. Therefore, I developed a firewall rule in the firewall_server.py script provided by Telstra to mitigate the attack on their nbn services. The rule blocks:
 
-1. Incoming traffic on client request path “/tomcatwar.jsp”
+1. Incoming traffic on client request path `/tomcatwar.jsp`
 2. Any request which is used in the malicious Spring4Shell payload, as listed in this PoC: https://github.com/craig/SpringCore0day/blob/main/exp.py
 
 ## Prerequisites
