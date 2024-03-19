@@ -22,8 +22,12 @@ This is a simple Python project I was tasked to perform as a participant of Tels
 2. Open a terminal or command prompt and navigate to the project directory.
 
 ## Usage
-- python firewall_server.py
-- Ctrl + C to stop the server
+ ```bash
+ python firewall_server.py
+ ```
+```bash
+Ctrl + c # to stop the server
+```
 
 After executing the script, the server will listen for incoming requests and any incoming GET or POST request that matches the stipulated rule above will be blocked and a 403 response code will be sent to the client. I tested the firewall_server.py script against the "test_resquests.py" script provided by Telstra.
 
